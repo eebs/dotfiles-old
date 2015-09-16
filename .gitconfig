@@ -1,0 +1,5 @@
+[user]
+	name = Ebrahim Kobeissi
+	email = ebrahim.kobeissi@gmail.com
+[core]
+	whitespace = space-before-tab,trailing-space

@@ -1,0 +1,18 @@
+# Git credentials
+GIT_AUTHOR_NAME="Ebrahim Kobeissi"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="ebrahim.kobeissi@gmail.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+git config --global core.whitespace space-before-tab,trailing-space
+
+# Load git-completion
+if [ -f ~/.git-completion.bash ]; then
+. ~/.git-completion.bash
+fi
+
+# Load ssh-completion
+if [ -f ~/.complete-hosts.sh ]; then
+.  ~/.complete-hosts.sh
+fi
